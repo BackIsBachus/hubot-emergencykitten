@@ -1,7 +1,7 @@
 {
   "name": "hubot-emergencykitten",
   "description": "A hubot script for when you need a kitten",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "BackIsBachus <backisbachus@backisbachus.xyz>",
   "license": "LGPL-3.0",
   "keywords": [
