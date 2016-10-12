@@ -53,4 +53,4 @@ kittens = [
   "http://farm4.staticflickr.com/3765/9301063123_0bac05c8ac_b.jpg"
 ]
 
-exports/kittens = kittens;
+exports.kittens = kittens;

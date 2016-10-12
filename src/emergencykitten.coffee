@@ -14,7 +14,7 @@
 #   BackIsBachus
 #
 
-kittens = require('./kittens.coffee').kittens
+kittens = require('../data/kittens.coffee').kittens
 
 module.exports = (robot) ->
     robot.hear /// (!kitten) $ ///i, (msg) ->

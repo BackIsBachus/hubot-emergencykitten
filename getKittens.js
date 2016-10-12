@@ -42,9 +42,9 @@ function writeTheKittens(img) {
     }
     text += "\n";
   }
-  text += "]\n\nexports/kittens = kittens;\n";
+  text += "]\n\nexports.kittens = kittens;\n";
   console.log(text);
-  fs.writeFile('./src/kittens.coffee', text);
+  fs.writeFile('./data/kittens.coffee', text);
 
 }
 
