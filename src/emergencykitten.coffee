@@ -17,5 +17,5 @@
 kittens = require('../data/kittens.coffee').kittens
 
 module.exports = (robot) ->
-    robot.hear /// (!kitten) $ ///i, (msg) ->
+    robot.hear /.*!kitten.*/i, (msg) ->
       msg.send msg.random kittens
